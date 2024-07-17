@@ -1,0 +1,12 @@
+config:
+  infra-apiserver:apiserverReplicaCount: 2
+  infra-apiserver:apiserverResourceRequirements:
+    limits:
+      memory: 20Gi
+    requests:
+      memory: 20Gi
+  infra-apiserver:public-access-cidrs:
+  # a
+  - 1.2.3.4/32
+  # b
+  - 2.3.4.5/32
