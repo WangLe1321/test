@@ -6,7 +6,11 @@ config:
     requests:
       memory: 20Gi
   infra-apiserver:public-access-cidrs:
-  # a
-  - 1.2.3.4/32
-  # b
-  - 2.3.4.5/32
+    # a
+    - 1.2.3.4/32
+    # b
+    - 2.3.4.5/32
+    # Seed  
+    - 13.231.69.180/32
+    # Seed  
+    - 13.231.69.180/32
